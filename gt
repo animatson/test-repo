@@ -4,7 +4,7 @@ if [ $check = ".git" ]; then
     git add .
     echo "write a commit message \n"
     read cmt
-    git commit -m '$cmt'
+    git commit -m $cmt
 else
     echo "Create a Repository then run Again"
 fi
