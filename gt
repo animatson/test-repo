@@ -1,6 +1,6 @@
 #!/bin/bash
 check=$(ls -a | grep .git)
-if [ $check = ".git" ]; then
+if [ "$check" = ".git" ];then
     git add .
     echo "write a commit message \n"
     read cmt
